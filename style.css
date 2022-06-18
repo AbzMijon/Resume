@@ -219,3 +219,25 @@ h4,
 .fa-check {
     margin-right: 6px;
 }
+
+
+/*other*/
+.right__name-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right__name-block .fa-solid {
+    border: 2px solid #333333;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 10px;
+}
+.right__name-line {
+    width: 70%;
+    height: 2px;
+    background-color: #333333;
+}
+.right .fa-solid {
+    color: #333333;
+}
