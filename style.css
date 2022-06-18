@@ -38,7 +38,6 @@ h1,
     font-size: 35px;
     line-height: 78px;
     letter-spacing: 3.2px;
-    color: #F5F5F5;
 }
 
 h2,
@@ -53,7 +52,7 @@ h3,
 .title3 {
     font-weight: 600;
     font-size: 30px;
-    line-height: 17px;
+    line-height: 25px;
     letter-spacing: 1px;
     padding: 15px 5px;
     background-color: #123869;
@@ -93,6 +92,12 @@ h4,
     padding: 10px;
     margin: 0 auto;
 }
+
+.container--right {
+    max-width: 1050px;
+    padding: 10px;
+    margin: 0 auto;
+}
 .left__img-block {
     position: relative;
     width: 100%;
@@ -129,8 +134,6 @@ h4,
     height: 75px;
 }
 
-.left__contact-link {
-}
 .left__from, .left__worktime {
     font-size: 20px;
     margin-bottom: 5px;
@@ -148,8 +151,7 @@ h4,
     font-weight: normal;
     letter-spacing: 0.5px;
 }
-.left__skills {
-}
+
 .left__skills-list {
     list-style-type: circle;
 }
@@ -210,10 +212,7 @@ h4,
     justify-content: space-between;
     align-items: center;
 }
-.left__personal-skills {
-}
-.left__personal-list {
-}
+
 .left__personal-item {
     margin-top: 15px;
 }
