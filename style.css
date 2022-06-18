@@ -52,9 +52,12 @@ h2,
 h3,
 .title3 {
     font-weight: 600;
-    font-size: 27px;
-    line-height: 67px;
+    font-size: 30px;
+    line-height: 17px;
     letter-spacing: 1px;
+    padding: 15px 5px;
+    background-color: #123869;
+    text-align: center;
 }
 
 h4,
@@ -63,9 +66,6 @@ h4,
     font-size: 24px;
     line-height: 36px;
     color: #4A4A4A;
-}
-body {
-    padding: 50px 150px;
 }
 
 .fa-solid {
@@ -82,9 +82,141 @@ body {
 }
 .left {
     background-color: #1d4f91;
-    padding: 30px 20px;
     color: #fff;
 }
 .right {
     background-color: #ffffff;
+}
+
+.container--left {
+    max-width: 430px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.left__img-block {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left__avatar {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #333333;
+}
+
+.left__contact-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.left__contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+.left__contact-item:hover {
+    transform: scale(0.9);
+}
+.left__contact-logo {
+    width: 75px;
+    height: 75px;
+}
+
+.left__contact-link {
+}
+.left__from, .left__worktime {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.left__from-country {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.left__worktime-text {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.left__skills {
+}
+.left__skills-list {
+    list-style-type: circle;
+}
+.left__skills-item {
+    margin-top: 15px;
+}
+.left__skills-name {
+    font-size: 19px;
+    margin-bottom: 3px;
+}
+.left__skills-line {
+    width: 100%;
+    height: 4px;
+    background-color: #3275ce;
+    position: relative;
+}
+
+.line-js:before, .line-ts:before, .line-html:before, .line-css:before, .line-sass:before, .line-git:before, .line-webpack:before, .line-figma:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100%;
+}
+.line-js::before {
+    width: 80%;
+}
+.line-ts::before {
+    width: 60%;
+}
+.line-html::before {
+    width: 100%;
+}
+.line-css::before {
+    width: 100%;
+}
+.line-sass::before {
+    width: 100%;
+}
+.line-git::before {
+    width: 80%;
+}
+.line-webpack::before {
+    width: 60%;
+}
+.line-figma::before {
+    width: 60%;
+}
+
+.left__skills-subname {
+    text-align: end;
+    font-weight: normal;
+}
+
+.left__personal-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left__personal-skills {
+}
+.left__personal-list {
+}
+.left__personal-item {
+    margin-top: 15px;
+}
+.fa-check {
+    margin-right: 6px;
 }
