@@ -34,7 +34,7 @@ a {
 
 h1,
 .title1 {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 35px;
     line-height: 78px;
     letter-spacing: 3.2px;
@@ -42,10 +42,11 @@ h1,
 
 h2,
 .title2 {
-    font-weight: 600;
-    font-size: 26px;
+    font-weight: bold;
+    font-size: 28px;
     line-height: 43px;
-    color: #333333;
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 h3,
@@ -64,7 +65,7 @@ h4,
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    color: #4A4A4A;
+    color: #1d4f91;
 }
 
 .fa-solid {
@@ -228,16 +229,58 @@ h4,
     align-items: center;
 }
 .right__name-block .fa-solid {
-    border: 2px solid #333333;
+    border: 2px solid #1d4f91;
+    color: #1d4f91;
     border-radius: 50%;
     font-size: 25px;
     padding: 10px;
 }
 .right__name-line {
-    width: 70%;
+    width: 75%;
     height: 2px;
-    background-color: #333333;
+    background-color: #1d4f91;
 }
 .right .fa-solid {
-    color: #333333;
+    color: #1d4f91;
+}
+
+.right {
+    padding: 5px;
+}
+
+.right__place {
+    display: flex;
+    margin-bottom: 20px;
+}
+.fa-location-dot, .fa-user {
+    margin-right: 8px;
+}
+
+.right__city {
+    margin-right: 25px;
+}
+
+.right__expectation {
+    font-weight: normal;
+}
+
+.right__education {
+    color: #000000;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.right__education:hover {
+    color: #1d4f91;
+}
+.right__date-education {
+    color: #4A4A4A;
+    text-align: center;
+}
+.right__education-text {
+    text-align: center;
+}
+.fa-user-vneck {
+}
+.right__about {
 }
