@@ -65,7 +65,23 @@ h4,
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    color: #1d4f91;
+    color: #fff;
+    display: block;
+    background-color: #123869;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 15px;
+    position: relative;
+    padding: 10px 0;
+}
+
+h4 > .fa-solid {
+    position: absolute;
+    top: 3px;
+    right: 10px;
 }
 
 .fa-solid {
@@ -238,7 +254,7 @@ h4,
     margin-top: 25px;
 }
 .right__name-block .fa-solid {
-    border: 2px solid #1d4f91;
+    border: 2px solid #ffffff;
     color: #1d4f91;
     border-radius: 50%;
     font-size: 25px;
@@ -257,7 +273,7 @@ h4,
     color: #1d4f91;
 }
 .right .fa-solid {
-    color: #1d4f91;
+    color: #ffffff;
 }
 
 .right {
