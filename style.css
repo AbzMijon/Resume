@@ -36,16 +36,18 @@ h1,
 .title1 {
     font-weight: bold;
     font-size: 35px;
-    line-height: 78px;
+    line-height: 35px;
     letter-spacing: 1px;
+    color: #000000;
+    margin-top: 30px;
 }
 
 h2,
 .title2 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 43px;
-    color: #000000;
+    color: #4A4A4A;
     margin-bottom: 10px;
 }
 
@@ -76,6 +78,7 @@ h4,
     margin-right: 15px;
     position: relative;
     padding: 10px 0;
+    margin-bottom: 25px;
 }
 
 h4 > .fa-solid {
@@ -96,15 +99,19 @@ h4 > .fa-solid {
     border-radius: 10px;
     box-shadow: 0 0 20px #4A4A4A;
 }
+
+.left, .right {
+    padding: 30px 0;
+}
+
 .left {
-    background-color: #C0D8DE;
+    background-color: #cdcdcd;
     color: #4A4A4A;
-    padding-bottom: 40px;
 }
 .right {
-    background-color: #ffffff;
-    padding-bottom: 40px;
+    background-color: #EEE;
 }
+
 
 .container--left {
     max-width: 430px;
@@ -113,7 +120,7 @@ h4 > .fa-solid {
 }
 
 .container--right {
-    max-width: 1050px;
+    max-width: 950px;
     padding: 10px;
     margin: 0 auto;
 }
@@ -127,7 +134,6 @@ h4 > .fa-solid {
     max-width: 300px;
     max-height: 300px;
     border-radius: 10px;
-    box-shadow: 0 0 30px #333333;
 }
 
 .left__contact-list {
@@ -156,6 +162,7 @@ h4 > .fa-solid {
 .left__from, .left__worktime {
     font-size: 20px;
     margin-bottom: 5px;
+    color: #000000;
 }
 .left__from-country {
     font-size: 15px;
@@ -184,7 +191,7 @@ h4 > .fa-solid {
 .left__skills-line {
     width: 100%;
     height: 4px;
-    background-color: #3275ce;
+    background-color: #bbc1ca;
     position: relative;
 }
 
@@ -226,18 +233,14 @@ h4 > .fa-solid {
     font-weight: normal;
 }
 
-.right__personal-wrap {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    column-gap: 20px;
-    margin-top: 20px;
+.personal__list {
 }
 
-.right__personal-item {
-    margin-top: 15px;
+.personal__item {
+    margin-top: 10px;
     color: #4A4A4A;
 }
+
 .fa-check {
     margin-right: 6px;
 }
@@ -277,6 +280,10 @@ h4 > .fa-solid {
     padding: 5px;
 }
 
+.right__work, .right__name {
+    text-align: center;
+}
+
 .right__place {
     display: flex;
     margin-bottom: 20px;
@@ -306,7 +313,6 @@ h4 > .fa-solid {
     color: #000000;
     font-size: 20px;
     cursor: pointer;
-    text-align: center;
     transition: 0.2s ease-in-out;
 }
 .right__education:hover {
@@ -314,17 +320,14 @@ h4 > .fa-solid {
 }
 .right__date-education {
     color: #4A4A4A;
-    text-align: center;
 }
 .right__education-text {
-    text-align: center;
     font-size: 15px;
     color: #4A4A4A;
     margin-bottom: 25px;
 }
 
 .right__about {
-    text-align: center;
     color: #4A4A4A;
     letter-spacing: 0.5px;
     margin: 10px 0 10px 0;
