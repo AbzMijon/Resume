@@ -24,7 +24,7 @@ textarea {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -115,7 +115,7 @@ h4 > .fa-solid {
 
 .container--left {
     max-width: 430px;
-    padding: 10px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -233,9 +233,6 @@ h4 > .fa-solid {
     font-weight: normal;
 }
 
-.personal__list {
-}
-
 .personal__item {
     margin-top: 10px;
     color: #4A4A4A;
@@ -345,11 +342,24 @@ h4 > .fa-solid {
     color: #4A4A4A;
 }
 
+.skills__row {
+    color: #6e5e5e;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    word-spacing: 15px;
+}
+
+.skills__item + .skills__item {
+    margin-top: 2px;
+}
+
 .right__project-list {
     margin: 20px 0 30px 0;
 }
-.right__project-box {
-}
+
 .right__project-name {
     font-size: 20px;
     transition: 0.2s ease-in;
